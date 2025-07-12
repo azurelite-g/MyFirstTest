@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sixth--work</title>
+    <style>
+        body{
+            background-image: url(image/background.jpg);
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            background-position: center center;
+            /* background-attachment: fixed; */
+
+        }
+    </style>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+<div class="login_border active" id="login">
+
+    <form action="login-servlet" method="get"  class="form" id="form">
+        <div class="element_border">欢迎来到Azurelite</div>
+        <input type="text" class="element_border" placeholder="请输入账号" id="user" name="user">
+        <input type="password" class="element_border" placeholder="请输入密码" id="password" name="password">
+        <button class="element_border login" type="submit">登录</button>
+        <div class="element_border" >没有账号？</div>
+        <button class="element_border" onclick="showregister()">点击注册</button>
+    </form>
+</div>
+
+<script>
+    loginform=document.getElementById('form')
+    loginform.addEventListener('submit',function (e){
+        user=document.getElementById('user')
+        password=document.getElementById('password')
+    })
+</script>
+
+
+
+
+</body>
+
+</html>

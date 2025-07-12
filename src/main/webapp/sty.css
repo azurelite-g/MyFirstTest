@@ -1,0 +1,58 @@
+
+
+/* .juzhong {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(66, 173, 82);
+} */
+
+.login_border {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(108, 102, 172);
+    width: 600px;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element_border{
+
+    text-align: center;
+    margin: 15px;
+    width: 300px;
+    height: 40px;
+
+}
+.login{
+    background-color: grey;
+    color: whitesmoke;
+
+}
+.register{
+    background-color: rgba(112, 202, 210, 0.441);
+}
+
+.register_border{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(108, 102, 172);
+    width: 600px;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.active{
+    display: flex;
+}
+
