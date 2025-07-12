@@ -62,7 +62,7 @@
       window.location.href='https://baidu.com'
     }
     else{
-      alert("账号或密码错误")
+      alert("账号或密码错误")//修改作者命名尝试
     }
   }
 </script>
